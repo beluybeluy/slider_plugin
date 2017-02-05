@@ -1,8 +1,6 @@
 # slider_plugin
 slider_plugin
-for start 
--create div.slider
-            div.slide
-            div.slide
-            div.slide
+for starting 
+-create main div with class="slider" and any amount of div with class="slide" in it
+            
             
