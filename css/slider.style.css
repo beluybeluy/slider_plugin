@@ -1,0 +1,62 @@
+body {
+   height: 100%;
+   background: #d4c4c4;
+}
+
+.slider {
+   background: #ff9898;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+}
+
+.slide {
+   background: yellow;
+   display: inline-block;
+}
+
+.slide-img {
+   height: 100%;
+   width: 100%
+}
+
+.tab {
+   height: 3em;
+   position: absolute;
+   bottom: 0;
+   left: 40%
+}
+
+.arrow {
+   height: 5em;
+   width: 5em;
+   position: absolute;
+   top: 45%;
+   border-radius: 50%;
+}
+
+.next-arrow {
+   right: 2%;
+   background: url(../img/right-arrow.png);
+   background-size: contain;
+}
+
+.prev-arrow {
+   left: 2%;
+   background: url(../img/left-arrow.png);
+   background-size: cover;
+}
+
+.tab-box {
+   height: 1em;
+   width: 1em;
+   background: #fff;
+   display: inline-block;
+   margin: 0.5em;
+   border-radius: 50%;
+}
+
+.tab-active {
+   border: 1px solid #fff;
+   background: red;
+}

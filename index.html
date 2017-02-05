@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>jquerySlider</title>
+   <link rel="stylesheet" href="css/slider.style.css"> </head>
+
+<body>
+   <div class="slider">
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+   </div>
+   <script src="js/jquery-3.1.1.min.js"></script>
+   <script src="js/jquery.slider.js"></script>
+   <script>
+      $('.slider').slider({
+         step: 1200
+         , images: ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg','img6.jpg','img7.jpg' ]
+      });
+   </script>
+</body>
+
+</html>
